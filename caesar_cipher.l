@@ -10,7 +10,6 @@ int i=0;
 [x-zX-Z] {str[i]=(int)str[i]-23; i++;}
 %%
 int main(){
-void enigma();
 printf("\nEnter a string: ");
 scanf("%s",str);
 yy_scan_string(str);
