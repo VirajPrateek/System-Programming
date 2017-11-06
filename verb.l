@@ -8,7 +8,7 @@ void isverb(){
 %}
 %%
 [is|am|are|was] {isverb();} 
-[a-zA-Z] {printf("Not in the verb list.");}
+[a-zA-Z]+ {printf("Not in the verb list.");}
 %%
 void main(){
 yylex();
