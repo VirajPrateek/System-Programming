@@ -26,6 +26,6 @@ predef_error {char}{char}|{operator}{operator}|{open}{close}|{open}{operator}|{o
 %%
 int main(){
 	yylex();
-	para!=0?error_exit("PARA_MAIN"): printf("Looks okay");  
+	para!=0?error_exit("PARA_MAIN"): printf("Correct! (Looks okay)");  
 return 0;
 }
